@@ -11,7 +11,11 @@ To allow public do analysis based on the history of RapidKL train frequency publ
 - Available in 2 formats  : ```csv``` and ```json```
 
 ## Frequency 
-The ```MTREC Train Frequency Log``` will be updated every **5 minutes** on our backend system and published to Github every **10 minutes**.
+The ```MTREC Train Frequency Log``` will be updated every **5 minutes** on our backend system and published to Github every **10 minutes**. 
+
+However , it may **not** be updated each 10 minutes , it may be delayed. 
+
+Explaination from Github : ``The schedule event can be delayed during periods of high loads of GitHub Actions workflow runs. High load times include the start of every hour. To decrease the chance of delay, schedule your workflow to run at a different time of the hour.``
 
 ## Dataset Explaination
 1. ```MTREC Train Frequency Log```
@@ -34,6 +38,12 @@ JSON :
 - There will be four same ``line_short_code`` for ``SPL (Sri Petaling Line)`` because our backend will log the train frequencies in CBD and non CBD station. <br> The first two ``SPL`` are logged in **CBD station** while the others are logged **in Non CBD Station**.
 
 - N/A in ```freq_in_sec``` during normal train services : PULSE didn't return ``headway_sec`` from their API during that time
+
+## Alternative Links
+If you are unable to retrieve the latest datasets from our Github repo due to the delay of Github actions , please use the link below to access our datasets.
+
+- CSV : [https://rapidrail-train-freq-history-csv.mtrec.workers.dev/](https://rapidrail-train-freq-history-csv.mtrec.workers.dev/)
+- JSON : [https://rapidrail-train-freq-history-json.mtrec.workers.dev/](https://rapidrail-train-freq-history-json.mtrec.workers.dev/)
 
 ## Data Source
 - PULSE by Prasarana , ``headway_sec`` from their API
