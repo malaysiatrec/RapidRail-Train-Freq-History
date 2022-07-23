@@ -1,6 +1,8 @@
 # RapidRail Trains Frequency History
 Provides RapidRail Trains Frequency History starting from 22 July 2022 02:50:52 PM 
 
+Star this repo if it helps you!
+
 ## Why?
 To allow public do analysis based on the history of RapidKL train frequency published on PULSE and make comparison and determine the changes of train frequency from time to time.
 
@@ -39,3 +41,5 @@ JSON :
 ## Credits
 - Sam Sam
 - Kai Xian
+
+
