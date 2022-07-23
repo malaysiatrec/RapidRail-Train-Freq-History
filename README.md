@@ -18,13 +18,13 @@ CSV :
 - ```date``` : Date when the Train Frequency being logged
 - ```time``` : Time when the Train Frequency being logged
 - ```line_short_code``` : The abbreviation of the line name when the Train Frequency being logged
-- ```headsign``` ： The terminal for the train when the Train Frequency being logged
+- ```headsign``` ： The terminus for the train when the Train Frequency being logged
 - ```freq_in_sec``` : The frequency of the train in seconds
 
 JSON : 
 - ```timestamp``` : The date and time when the Train Frequency being logged
 - ```line_short_code``` : The abbreviation of the line name when the Train Frequency being logged
-- ```headsign``` ： The terminal for the train when the Train Frequency being logged
+- ```headsign``` ： The terminus for the train when the Train Frequency being logged
 - ```freq_in_sec``` : The frequency of the train in seconds
 
 
