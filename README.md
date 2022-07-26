@@ -37,7 +37,7 @@ JSON :
 ``Notes``:
 - ~There will be four same ``line_short_code`` for ``SPL (Sri Petaling Line)`` because our backend will log the train frequencies in CBD and non CBD station. <br> The first two ``SPL`` are logged in **CBD station** while the others are logged **in Non CBD Station**.~ 
 
-(Removed to avoid confuse , PULSE showing same ``headway_sec`` for CBD stations / NON CBD stations)
+(Removed since ``26 July 2022, 05:56:18 PM`` to avoid confuse , PULSE showing same ``headway_sec`` for CBD stations / NON CBD stations)
 
 - N/A in ```freq_in_sec``` during normal train services : PULSE didn't return ``headway_sec`` from their API during that time
 
