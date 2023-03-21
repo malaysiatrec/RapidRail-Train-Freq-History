@@ -1,3 +1,6 @@
+# WARNING 
+This repo won’t be updated anymore as the this feature will be discontinued from our side. Please be aware that no new data will be updated starting 21 March 2023.
+
 # RapidRail Trains Frequency History
 Provides RapidRail Trains Frequency History starting from 22 July 2022 02:50:52 PM 
 
